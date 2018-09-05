@@ -7,7 +7,7 @@ package edu.gatech.oad.antlab.person;
  *  @author  Bob
  *  @version 1.1
  */
-public class Morgan {
+public class Person3 {
    /** Holds the persons real name */  
 	private String name;
 	
@@ -16,7 +16,7 @@ public class Morgan {
 	 * name
 	 * @param pname the person's real name
 	 */
-	public Morgan(String pname){
+	public Person3(String pname){
 	  name = pname;
 	}
 	
