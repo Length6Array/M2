@@ -7,7 +7,7 @@ package edu.gatech.oad.antlab.person;
  *  @author  Bob
  *  @version 1.1
  */
-public class Person3 {
+public class Morgan {
    /** Holds the persons real name */  
 	private String name;
 	
@@ -16,7 +16,7 @@ public class Person3 {
 	 * name
 	 * @param pname the person's real name
 	 */
-	public Person3(String pname){
+	public Morgan(String pname){
 	  name = pname;
 	}
 	
@@ -42,7 +42,10 @@ public class Person3 {
 	 * @return the reversed string
 	 */
 	private String calc(String input) {
-	  //Person 3 put your implementation here
-	  return null;
+		String backwards = "";
+	  	for (int i = input.length(); i > 0; i--) {
+			backwards += input.charAt(i - 1);
+		}
+	  return backwards;
 	}
 }
