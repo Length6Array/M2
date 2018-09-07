@@ -1,5 +1,5 @@
 package edu.gatech.oad.antlab.person;
-import java.util.ArrayList<E>;
+import java.util.ArrayList;
 import java.util.Random;
 
 
@@ -36,8 +36,8 @@ public class Person2 {
 		String newString = "";
 		Random gen = new Random();
 		char[] letterHolder = input.toCharArray();
-		ArrayList<char> letters = new ArrayList<char>();
-		for (String letter : letterHolder) {
+		ArrayList<Character> letters = new ArrayList<Character>();
+		for (char letter : letterHolder) {
 			letters.add(letter);
 		}
 		while (!(letters.isEmpty())) {
